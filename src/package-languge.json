@@ -1,0 +1,31 @@
+{
+	"title": {
+		"es": "Mi extraña adición",
+		"en": "My strange addiction"
+	},
+
+	"autor": {
+		"es": "Billie Eilish",
+		"en": "Billie Eilish"
+	},
+
+	"btn": {
+		"es": {
+			"esp": "Traducir al español",
+			"eng": "Traducir al ingles"
+		},
+		"en": {
+			"esp": "Translate to spanish",
+			"eng": "Translate to english"
+		}
+	},
+
+	"lyric": {
+		"es": {
+			"phrase1": "No, Billie, yo no bailo eso desde que murió mi esposa<br/>Hay una muchedumbre de personas afuera<br/>Que necesitan aprender el baile de El Escarnio"
+		},
+		"en": {
+			"phrase1": "No, Billy, I haven't done that dance since my wife died<br/>There’s a whole crowd of people out there<br/>Who need to learn how to do The Scarn"
+		}
+	}
+}

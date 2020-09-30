@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Translate controller</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	</head>
+	<body>
+		<br />
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					Traducir:
+					<button
+						data-transite-btn="es"
+						data-transite-attr="title|btn.esp"
+						title="Traducir al español"
+						class="btn btn-primary"
+					>
+						Español
+					</button>
+					<button
+						data-transite-btn="en"
+						data-transite-attr="title|btn.eng"
+						title="Traducir al ingles"
+						class="btn btn-success"
+					>
+						English
+					</button>
+				</div>
+
+				<div class="col-6">
+					<h1 data-transite-key="title">My Strange Addiction</h1>
+					<h5>Billie Eilish</h5>
+					<p data-transite-key="lyric.phrase1">
+						No, Billy, I haven't done that dance since my wife died<br />There’s a whole crowd of people out
+						there<br />Who need to learn how to do The Scarn
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="translatesite.js"></script>
+		<script>
+			new EUXTranslate({
+				languagePackageLocation: './package-languge.json'
+			});
+		</script>
+	</body>
+</html>
